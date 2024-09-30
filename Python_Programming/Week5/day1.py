@@ -14,3 +14,10 @@ import random
 
 numList = [1, 2, 3, 4, 5, 6 ,7, 8, 9, 10]
 print("랜덤하게 선택한 항목=", random.choice(numList))
+
+# 리스트 합병
+heroes1 = ["아이언맨", "토르"]
+heroes2 = ["헐크", "스칼렛 워치"]
+avengers = heroes1 + heroes2
+
+print(avengers)
