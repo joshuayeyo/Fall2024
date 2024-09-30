@@ -74,6 +74,11 @@ numbers[2:7:2]
 print(numbers[::-1])
 
 # 리스트 일부 변경
-lst = [1, 2, 3, 4, 5, 6, 7, 8]
-lst[0:3] = ['white', 'blue', 'red']
-print(lst)
+lst1 = [1, 2, 3, 4, 5, 6, 7, 8]
+lst1[0:3] = ['white', 'blue', 'red']
+print(lst1)
+
+# 리스트 중간 변경
+lst2 = [1, 2, 3, 4, 5, 6, 7, 8]
+lst2[::2] = [99, 99, 99, 99]
+print(lst2)
