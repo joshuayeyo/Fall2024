@@ -99,3 +99,9 @@ s = "Monthy Python"
 print(s[0])
 print(s[6:10])
 print(s[-12:-7])
+
+# 리스트 함축
+sqrs = []
+for x in range(10):
+    sqrs.append(x*x)
+print(sqrs)
