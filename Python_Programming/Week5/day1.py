@@ -35,3 +35,22 @@ print(list1 == list2)       # True
 list3 = [3, 4, 5]
 list4 = [1, 2, 3]
 print(list1 > list2)        #False
+
+# 리스트 복사
+temps = [28, 31, 33, 35, 27, 26, 25]
+values1 = temps
+
+print(temps)
+values1[3] = 39
+print(temps)
+print(values1)
+
+# list()
+print("list()로 리스트 생성해보자")
+tmps = [28, 31, 33, 35, 27, 26, 25]
+values2 = list(tmps)
+
+print(tmps)
+values2[3] = 39
+print(tmps)
+print(values2)
