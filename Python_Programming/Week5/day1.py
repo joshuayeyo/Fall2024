@@ -21,3 +21,8 @@ heroes2 = ["헐크", "스칼렛 워치"]
 avengers = heroes1 + heroes2
 
 print(avengers)
+
+# 리스트 복제
+nums = [1, 2, 3, 4]
+newNums = [1, 2, 3, 4] * 3
+print(newNums)
