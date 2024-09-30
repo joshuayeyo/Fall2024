@@ -72,3 +72,8 @@ numbers[2:7:2]
 
 # 역순으로 만들기
 print(numbers[::-1])
+
+# 리스트 일부 변경
+lst = [1, 2, 3, 4, 5, 6, 7, 8]
+lst[0:3] = ['white', 'blue', 'red']
+print(lst)
