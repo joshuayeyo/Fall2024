@@ -93,3 +93,9 @@ numbers = list(range(0, 10))    # 0에서 시작하여 9까지를 저장하는 �
 print(numbers)
 del numbers[-1]                 #마지막 항목을 삭제한다.
 print(numbers)
+
+# 문자열과 리스트
+s = "Monthy Python"
+print(s[0])
+print(s[6:10])
+print(s[-12:-7])
