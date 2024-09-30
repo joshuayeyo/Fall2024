@@ -54,3 +54,15 @@ print(tmps)
 values2[3] = 39
 print(tmps)
 print(values2)
+
+# 슬라이싱
+numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+
+# numbers[:3]
+print(numbers[:3])  # [10, 20, 30]
+# numbers[3:]
+print(numbers[3:])  # [40, 50, 60, 70, 80, 90]
+# numbers[:]
+print(numbers[:])   # [10, 20, 30, 40, 50, 60, 70, 80, 90]
+
+new_numbers= numbers[:]
