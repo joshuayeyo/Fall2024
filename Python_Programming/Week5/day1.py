@@ -106,8 +106,8 @@ for x in range(10):
     sqrs.append(x*x)
 print(sqrs)
 
-# sqrs1 = [ x*x for x in range(10)]
-# print(sqrs1)
+sqrs1 = [ x*x for x in range(10)]
+print(sqrs1)
 
 # if문을 추가하여 '조건 추가'
 sqrs2 = []
