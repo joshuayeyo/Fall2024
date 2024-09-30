@@ -66,3 +66,6 @@ print(numbers[3:])  # [40, 50, 60, 70, 80, 90]
 print(numbers[:])   # [10, 20, 30, 40, 50, 60, 70, 80, 90]
 
 new_numbers= numbers[:]
+
+# 간격을 주고 잘라내기 (list[ start : stop : step])
+numbers[2:7:2]
