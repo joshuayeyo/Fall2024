@@ -69,3 +69,6 @@ new_numbers= numbers[:]
 
 # 간격을 주고 잘라내기 (list[ start : stop : step])
 numbers[2:7:2]
+
+# 역순으로 만들기
+print(numbers[::-1])
