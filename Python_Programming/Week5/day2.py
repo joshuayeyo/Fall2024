@@ -70,5 +70,11 @@ print("\n")
 
 ## 함축연산, [] vs. {}
 aList = [1, 2, 3, 4, 5, 1, 2]
-result = {x for x in aList if x%2==0}
+result = { x for x in aList if x%2==0 }
 print(result)
+
+## 부분집합 연산
+A = {"apple", "banana", "grape"}
+B = {"apple", "banana", "grape", "kiwi"}
+if A < B :
+    print("A는 B의 부분집합입니다.")
