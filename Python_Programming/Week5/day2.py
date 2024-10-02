@@ -100,3 +100,11 @@ capitals["China"]="Beijing"
 capitals["Japan"]="Tokyo"
 
 print(capitals)
+
+city = capitals.pop("France")
+if "France" in capitals:
+    capitals.pop("France")
+print(capitals)
+print(city)
+if "France" in capitals:
+    del_city = capitals.pop("France")
