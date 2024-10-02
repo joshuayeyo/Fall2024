@@ -76,7 +76,7 @@ print(result)
 ## 부분집합 연산
 A = {"apple", "banana", "grape"}
 B = {"apple", "banana", "grape", "kiwi"}
-if A < B :
+if A.issubset(B) :
     print("A는 B의 부분집합입니다.")
 
 ## 비교
@@ -84,3 +84,11 @@ if A == B:
     print("A는 B와 같습니다.")
 else:
     print("A는 B와 같지 않습니다.")
+
+# 딕셔너리
+## 항목 탐색
+capitals = {"Korea": "Seoul", "America": "Washington", "France": "Paris"}
+print(capitals["Korea"])
+
+# print(capitals["Japan"])  # 에러 발생
+print(capitals.get("Japan", "해당 키가 없습니다."))
