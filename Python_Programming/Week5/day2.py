@@ -61,9 +61,14 @@ if "apple" in fruits:
 else:
     print("집합 안에 apple이 없습니다.")
 
-for x in fruits:
+for x in fruits:            # 순서 없음(무작위)
     print(x, end=" ")
 print("\n")
 for x in sorted(fruits):
     print(x, end=" ")
 print("\n")
+
+## 함축연산, [] vs. {}
+aList = [1, 2, 3, 4, 5, 1, 2]
+result = {x for x in aList if x%2==0}
+print(result)
