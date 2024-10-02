@@ -78,3 +78,9 @@ A = {"apple", "banana", "grape"}
 B = {"apple", "banana", "grape", "kiwi"}
 if A < B :
     print("A는 B의 부분집합입니다.")
+
+## 비교
+if A == B:
+    print("A는 B와 같습니다.")
+else:
+    print("A는 B와 같지 않습니다.")
