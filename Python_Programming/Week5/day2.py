@@ -24,6 +24,7 @@ myList = list(myTuple)
 print(myList)
 
 ## 튜플 연산
+### 추가
 fruits += ("pear", "kiwi")
 print(fruits)
 
