@@ -101,6 +101,7 @@ capitals["Japan"]="Tokyo"
 
 print(capitals)
 
+## 항목 삭제
 city = capitals.pop("France")
 if "France" in capitals:
     capitals.pop("France")
@@ -108,3 +109,11 @@ print(capitals)
 print(city)
 if "France" in capitals:
     del_city = capitals.pop("France")
+
+## 항목 방문 : dictionary[key], items() 메소드
+### 方法１
+for key in capitals:
+    print(key,":", capitals[key])
+###　方法２
+for key, value in capitals.items():
+    print(key,":",value)
