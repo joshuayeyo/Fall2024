@@ -90,5 +90,13 @@ else:
 capitals = {"Korea": "Seoul", "America": "Washington", "France": "Paris"}
 print(capitals["Korea"])
 
-# print(capitals["Japan"])  # 에러 발생
+# print(capitals["Japan"])  # 에러 발
 print(capitals.get("Japan", "해당 키가 없습니다."))
+
+## 항목 추가
+# capitals = {}
+# capitals["Korea"]="Seoul"
+capitals["China"]="Beijing"
+capitals["Japan"]="Tokyo"
+
+print(capitals)
