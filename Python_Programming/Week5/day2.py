@@ -22,3 +22,11 @@ print(myTuple)
 myTuple = (1, 2, 3, 4)
 myList = list(myTuple)
 print(myList)
+
+## 튜플 연산
+fruits += ("pear", "kiwi")
+print(fruits)
+
+numbers = [10, 20, 30]
+numbers += (40, 50)
+print(numbers)
