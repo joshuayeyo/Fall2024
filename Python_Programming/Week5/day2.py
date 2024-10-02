@@ -31,3 +31,8 @@ print(fruits)
 numbers = [10, 20, 30]
 numbers += (40, 50)
 print(numbers)
+
+## 패킹과 언패킹
+n1 = 10
+n2 = 90
+n1, n2 = (n2, n1)
