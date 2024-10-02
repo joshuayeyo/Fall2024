@@ -11,4 +11,14 @@ fruits = ("apple", "banana", "grape")
 fruits[1]
 print(fruits)
 
-fruits[1] = "pear"      # 오류 발
+# fruits[1] = "pear"      # 오류 발
+
+## 튜플생성(변환)
+myList = [1, 2, 3, 4]
+myTuple = tuple(myList)
+print(myTuple)
+
+## 리스트생성(변환)
+myTuple = (1, 2, 3, 4)
+myList = list(myTuple)
+print(myList)
