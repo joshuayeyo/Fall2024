@@ -36,3 +36,8 @@ print(numbers)
 n1 = 10
 n2 = 90
 n1, n2 = (n2, n1)
+
+## enumerate()
+fruits = ["apple", "banana", "grape"]
+for index, value in enumerate(fruits):
+    print(index, value, end=" ")
