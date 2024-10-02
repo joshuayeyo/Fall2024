@@ -50,3 +50,20 @@ print(numbers)
 
 letters = set("abc")
 print(letters)
+
+## 연산
+fruits = {"apple", "banana", "grape"}
+size = len(fruits)
+print(size)
+
+if "apple" in fruits:
+    print("집합 안에 apple이 있습니다.")
+else:
+    print("집합 안에 apple이 없습니다.")
+
+for x in fruits:
+    print(x, end=" ")
+print("\n")
+for x in sorted(fruits):
+    print(x, end=" ")
+print("\n")
