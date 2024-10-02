@@ -41,3 +41,12 @@ n1, n2 = (n2, n1)
 fruits = ["apple", "banana", "grape"]
 for index, value in enumerate(fruits):
     print(index, value, end=" ")
+print("\n")
+
+# Set
+## List => Set
+numbers = set([1,2,3,1,2,3])
+print(numbers)
+
+letters = set("abc")
+print(letters)
