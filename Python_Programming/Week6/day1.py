@@ -112,3 +112,51 @@ print(joint)
 
 phoneNum = "-".join("010.1234.5678".split("."))
 print(phoneNum)
+
+
+# Ch.5 함수
+## 함수 작성 및 호출
+def get_area(radius):
+    area = 3.14*radius**2
+    return area
+
+result1 = get_area(3)
+result2 = get_area(20)      # 서로 다른 인수로 호출할 수 있다.
+print(f"반지름이 3인 원의 면적> {result1}")
+print(f"반지름이 20인 원의 면적> {result2}")
+
+# 여러 개의 값 반환
+def get_input():
+    return 2, 3
+
+x, y = get_input()      # x=2, y=3
+
+print(x, y)
+
+# 함수 내에서는 아직 정의되지 않은 함수 호출 가능
+def main():
+    result3 = get_area1(3)
+    print(f"반지름이 3인 원의 면적> {result3}")
+
+def get_area1(radius):
+    area = 3.14*radius**2
+    return area
+
+main()
+
+
+# LAB
+def main1():
+    resultA = getPizzaArea(20) + getPizzaArea(20)
+    resultB = getPizzaArea(30)
+    print(f"20cm 피자 2개의 면적> {resultA} ")
+    print(f"30cm 피자 1개의 면적> {resultB}")
+
+def getPizzaArea(radius):
+    if radius > 0 :
+        area = 3.14*radius**2
+    else:
+        print("올바른 값을 입력하세요.")
+    return area
+
+main1();
